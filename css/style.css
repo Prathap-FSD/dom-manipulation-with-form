@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #331450;
+}
+.formBox{
+width: 550px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+table{
+    width: 100%;
+}
+.productTable{
+    width: 100%;
+    background: #ffc133;
+    font-weight: 500;
+}
+thead{
+    height: 40px;
+}
+thead td{
+    color:#212529;
+    border-right: 1px solid #331450;
+    text-align: center;
+
+}
+thead td:last-child{
+    border-right: none;
+   
+}
+#title, #description{
+    color: #fff;
+}
+.formSpec{
+    padding: 18px 16px;
+    background-color:#ffffff;
+}
+.formSpec input{
+    border: 1px solid #c5c5c5;
+}
+.formSpec input:focus{
+    box-shadow: 0 0 0 0.20rem rgb(105 13 253 / 25%);
+}
+.formSpec [type=submit]{
+    font-weight: 600;
+    border: 0;
+}
+.formSpec [type=submit]:hover{
+    background-color: #e59c00;
+}
+.subBt{
+    width: 100%;
+}
+.subBt:hover{
+    border:  0;
+    background: #331450 !important;
+    color: #fff;
+}
+
+.subBt:focus{
+    color: #fff;
+}
+tbody{
+    background-color: #fff;
+}
+/* @media print {
+    .pInput{
+        display: none;
+    }
+    .productTable{
+       background-color: red;
+    }
+    .forPrint{
+        width: 100%;
+    }
+} */
